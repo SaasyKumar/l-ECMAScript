@@ -14,7 +14,7 @@ app.use((req, res,next)=>{
 	next();
 });
 
-const PORT = 4000;
+const PORT = 4001;
 app.listen(PORT, ()=>{
-	console.log("running cdn");
+	console.log("%c running destination server in port "+PORT,"color:red");
 });
